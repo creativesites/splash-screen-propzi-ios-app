@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84895F4525877648001F123E /* splash_screen_propziApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84895F4425877648001F123E /* splash_screen_propziApp.swift */; };
+		84895F492587764B001F123E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84895F482587764B001F123E /* Assets.xcassets */; };
+		84895F4C2587764B001F123E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84895F4B2587764B001F123E /* Preview Assets.xcassets */; };
+		84895F572587764B001F123E /* splash_screen_propziTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84895F562587764B001F123E /* splash_screen_propziTests.swift */; };
+		84895F622587764B001F123E /* splash_screen_propziUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84895F612587764B001F123E /* splash_screen_propziUITests.swift */; };
+		84895F732587778D001F123E /* HomeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84895F722587778D001F123E /* HomeList.swift */; };
+		84895F78258777D6001F123E /* ButtonRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84895F77258777D6001F123E /* ButtonRow.swift */; };
+		84895F7D2587780E001F123E /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84895F7C2587780E001F123E /* HeaderView.swift */; };
+		84895F8225877B2F001F123E /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84895F8125877B2F001F123E /* SplashScreen.swift */; };
+		84895F8A25877BF7001F123E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84895F8925877BF7001F123E /* ContentView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84895F532587764B001F123E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84895F3925877648001F123E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84895F4025877648001F123E;
+			remoteInfo = "splash screen propzi";
+		};
+		84895F5E2587764B001F123E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84895F3925877648001F123E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84895F4025877648001F123E;
+			remoteInfo = "splash screen propzi";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84895F4125877648001F123E /* splash screen propzi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "splash screen propzi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84895F4425877648001F123E /* splash_screen_propziApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = splash_screen_propziApp.swift; sourceTree = "<group>"; };
+		84895F482587764B001F123E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84895F4B2587764B001F123E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		84895F4D2587764B001F123E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84895F522587764B001F123E /* splash screen propziTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "splash screen propziTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84895F562587764B001F123E /* splash_screen_propziTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = splash_screen_propziTests.swift; sourceTree = "<group>"; };
+		84895F582587764B001F123E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84895F5D2587764B001F123E /* splash screen propziUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "splash screen propziUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84895F612587764B001F123E /* splash_screen_propziUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = splash_screen_propziUITests.swift; sourceTree = "<group>"; };
+		84895F632587764B001F123E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84895F722587778D001F123E /* HomeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeList.swift; sourceTree = "<group>"; };
+		84895F77258777D6001F123E /* ButtonRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonRow.swift; sourceTree = "<group>"; };
+		84895F7C2587780E001F123E /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		84895F8125877B2F001F123E /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		84895F8925877BF7001F123E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84895F3E25877648001F123E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84895F4F2587764B001F123E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84895F5A2587764B001F123E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84895F3825877648001F123E = {
+			isa = PBXGroup;
+			children = (
+				84895F4325877648001F123E /* splash screen propzi */,
+				84895F552587764B001F123E /* splash screen propziTests */,
+				84895F602587764B001F123E /* splash screen propziUITests */,
+				84895F4225877648001F123E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84895F4225877648001F123E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84895F4125877648001F123E /* splash screen propzi.app */,
+				84895F522587764B001F123E /* splash screen propziTests.xctest */,
+				84895F5D2587764B001F123E /* splash screen propziUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84895F4325877648001F123E /* splash screen propzi */ = {
+			isa = PBXGroup;
+			children = (
+				84895F4425877648001F123E /* splash_screen_propziApp.swift */,
+				84895F8125877B2F001F123E /* SplashScreen.swift */,
+				84895F8925877BF7001F123E /* ContentView.swift */,
+				84895F722587778D001F123E /* HomeList.swift */,
+				84895F7C2587780E001F123E /* HeaderView.swift */,
+				84895F77258777D6001F123E /* ButtonRow.swift */,
+				84895F482587764B001F123E /* Assets.xcassets */,
+				84895F4D2587764B001F123E /* Info.plist */,
+				84895F4A2587764B001F123E /* Preview Content */,
+			);
+			path = "splash screen propzi";
+			sourceTree = "<group>";
+		};
+		84895F4A2587764B001F123E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				84895F4B2587764B001F123E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		84895F552587764B001F123E /* splash screen propziTests */ = {
+			isa = PBXGroup;
+			children = (
+				84895F562587764B001F123E /* splash_screen_propziTests.swift */,
+				84895F582587764B001F123E /* Info.plist */,
+			);
+			path = "splash screen propziTests";
+			sourceTree = "<group>";
+		};
+		84895F602587764B001F123E /* splash screen propziUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84895F612587764B001F123E /* splash_screen_propziUITests.swift */,
+				84895F632587764B001F123E /* Info.plist */,
+			);
+			path = "splash screen propziUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84895F4025877648001F123E /* splash screen propzi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84895F662587764B001F123E /* Build configuration list for PBXNativeTarget "splash screen propzi" */;
+			buildPhases = (
+				84895F3D25877648001F123E /* Sources */,
+				84895F3E25877648001F123E /* Frameworks */,
+				84895F3F25877648001F123E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "splash screen propzi";
+			productName = "splash screen propzi";
+			productReference = 84895F4125877648001F123E /* splash screen propzi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84895F512587764B001F123E /* splash screen propziTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84895F692587764B001F123E /* Build configuration list for PBXNativeTarget "splash screen propziTests" */;
+			buildPhases = (
+				84895F4E2587764B001F123E /* Sources */,
+				84895F4F2587764B001F123E /* Frameworks */,
+				84895F502587764B001F123E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84895F542587764B001F123E /* PBXTargetDependency */,
+			);
+			name = "splash screen propziTests";
+			productName = "splash screen propziTests";
+			productReference = 84895F522587764B001F123E /* splash screen propziTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84895F5C2587764B001F123E /* splash screen propziUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84895F6C2587764B001F123E /* Build configuration list for PBXNativeTarget "splash screen propziUITests" */;
+			buildPhases = (
+				84895F592587764B001F123E /* Sources */,
+				84895F5A2587764B001F123E /* Frameworks */,
+				84895F5B2587764B001F123E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84895F5F2587764B001F123E /* PBXTargetDependency */,
+			);
+			name = "splash screen propziUITests";
+			productName = "splash screen propziUITests";
+			productReference = 84895F5D2587764B001F123E /* splash screen propziUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84895F3925877648001F123E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					84895F4025877648001F123E = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					84895F512587764B001F123E = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 84895F4025877648001F123E;
+					};
+					84895F5C2587764B001F123E = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 84895F4025877648001F123E;
+					};
+				};
+			};
+			buildConfigurationList = 84895F3C25877648001F123E /* Build configuration list for PBXProject "splash screen propzi" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84895F3825877648001F123E;
+			productRefGroup = 84895F4225877648001F123E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84895F4025877648001F123E /* splash screen propzi */,
+				84895F512587764B001F123E /* splash screen propziTests */,
+				84895F5C2587764B001F123E /* splash screen propziUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84895F3F25877648001F123E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84895F4C2587764B001F123E /* Preview Assets.xcassets in Resources */,
+				84895F492587764B001F123E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84895F502587764B001F123E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84895F5B2587764B001F123E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84895F3D25877648001F123E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84895F8225877B2F001F123E /* SplashScreen.swift in Sources */,
+				84895F7D2587780E001F123E /* HeaderView.swift in Sources */,
+				84895F8A25877BF7001F123E /* ContentView.swift in Sources */,
+				84895F732587778D001F123E /* HomeList.swift in Sources */,
+				84895F78258777D6001F123E /* ButtonRow.swift in Sources */,
+				84895F4525877648001F123E /* splash_screen_propziApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84895F4E2587764B001F123E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84895F572587764B001F123E /* splash_screen_propziTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84895F592587764B001F123E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84895F622587764B001F123E /* splash_screen_propziUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84895F542587764B001F123E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84895F4025877648001F123E /* splash screen propzi */;
+			targetProxy = 84895F532587764B001F123E /* PBXContainerItemProxy */;
+		};
+		84895F5F2587764B001F123E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84895F4025877648001F123E /* splash screen propzi */;
+			targetProxy = 84895F5E2587764B001F123E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		84895F642587764B001F123E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84895F652587764B001F123E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84895F672587764B001F123E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"splash screen propzi/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "splash screen propzi/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "propzi.splash-screen-propzi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84895F682587764B001F123E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"splash screen propzi/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "splash screen propzi/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "propzi.splash-screen-propzi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		84895F6A2587764B001F123E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "splash screen propziTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "propzi.splash-screen-propziTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/splash screen propzi.app/splash screen propzi";
+			};
+			name = Debug;
+		};
+		84895F6B2587764B001F123E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "splash screen propziTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "propzi.splash-screen-propziTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/splash screen propzi.app/splash screen propzi";
+			};
+			name = Release;
+		};
+		84895F6D2587764B001F123E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "splash screen propziUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "propzi.splash-screen-propziUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "splash screen propzi";
+			};
+			name = Debug;
+		};
+		84895F6E2587764B001F123E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "splash screen propziUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "propzi.splash-screen-propziUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "splash screen propzi";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84895F3C25877648001F123E /* Build configuration list for PBXProject "splash screen propzi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84895F642587764B001F123E /* Debug */,
+				84895F652587764B001F123E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84895F662587764B001F123E /* Build configuration list for PBXNativeTarget "splash screen propzi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84895F672587764B001F123E /* Debug */,
+				84895F682587764B001F123E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84895F692587764B001F123E /* Build configuration list for PBXNativeTarget "splash screen propziTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84895F6A2587764B001F123E /* Debug */,
+				84895F6B2587764B001F123E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84895F6C2587764B001F123E /* Build configuration list for PBXNativeTarget "splash screen propziUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84895F6D2587764B001F123E /* Debug */,
+				84895F6E2587764B001F123E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84895F3925877648001F123E /* Project object */;
+}
