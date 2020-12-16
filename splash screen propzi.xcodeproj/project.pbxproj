@@ -17,6 +17,8 @@
 		84895F7D2587780E001F123E /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84895F7C2587780E001F123E /* HeaderView.swift */; };
 		84895F8225877B2F001F123E /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84895F8125877B2F001F123E /* SplashScreen.swift */; };
 		84895F8A25877BF7001F123E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84895F8925877BF7001F123E /* ContentView.swift */; };
+		84895F9425879DE0001F123E /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84895F9325879DE0001F123E /* SignUp.swift */; };
+		84895F9A2587A0D5001F123E /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84895F992587A0D5001F123E /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		84895F7C2587780E001F123E /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		84895F8125877B2F001F123E /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
 		84895F8925877BF7001F123E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		84895F9325879DE0001F123E /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		84895F992587A0D5001F123E /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,11 +108,10 @@
 			isa = PBXGroup;
 			children = (
 				84895F4425877648001F123E /* splash_screen_propziApp.swift */,
-				84895F8125877B2F001F123E /* SplashScreen.swift */,
+				84895F9125879D7B001F123E /* Splash Screen */,
 				84895F8925877BF7001F123E /* ContentView.swift */,
-				84895F722587778D001F123E /* HomeList.swift */,
-				84895F7C2587780E001F123E /* HeaderView.swift */,
-				84895F77258777D6001F123E /* ButtonRow.swift */,
+				84895F982587A0B1001F123E /* Sign In */,
+				84895F9225879DBE001F123E /* Sign Up */,
 				84895F482587764B001F123E /* Assets.xcassets */,
 				84895F4D2587764B001F123E /* Info.plist */,
 				84895F4A2587764B001F123E /* Preview Content */,
@@ -140,6 +143,33 @@
 				84895F632587764B001F123E /* Info.plist */,
 			);
 			path = "splash screen propziUITests";
+			sourceTree = "<group>";
+		};
+		84895F9125879D7B001F123E /* Splash Screen */ = {
+			isa = PBXGroup;
+			children = (
+				84895F8125877B2F001F123E /* SplashScreen.swift */,
+				84895F77258777D6001F123E /* ButtonRow.swift */,
+				84895F722587778D001F123E /* HomeList.swift */,
+				84895F7C2587780E001F123E /* HeaderView.swift */,
+			);
+			path = "Splash Screen";
+			sourceTree = "<group>";
+		};
+		84895F9225879DBE001F123E /* Sign Up */ = {
+			isa = PBXGroup;
+			children = (
+				84895F9325879DE0001F123E /* SignUp.swift */,
+			);
+			path = "Sign Up";
+			sourceTree = "<group>";
+		};
+		84895F982587A0B1001F123E /* Sign In */ = {
+			isa = PBXGroup;
+			children = (
+				84895F992587A0D5001F123E /* LoginView.swift */,
+			);
+			path = "Sign In";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,11 +301,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84895F9425879DE0001F123E /* SignUp.swift in Sources */,
 				84895F8225877B2F001F123E /* SplashScreen.swift in Sources */,
 				84895F7D2587780E001F123E /* HeaderView.swift in Sources */,
 				84895F8A25877BF7001F123E /* ContentView.swift in Sources */,
 				84895F732587778D001F123E /* HomeList.swift in Sources */,
 				84895F78258777D6001F123E /* ButtonRow.swift in Sources */,
+				84895F9A2587A0D5001F123E /* LoginView.swift in Sources */,
 				84895F4525877648001F123E /* splash_screen_propziApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

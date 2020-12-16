@@ -26,13 +26,23 @@ struct ButtonRow: View {
           HStack {
               Text("Already a member?")
                  .font(.system(size: 20))
-                 .fontWeight(.heavy)
+                //.fontWeight()
                   .padding(.leading, 30)
-              Text("Log in")
-                  .foregroundColor(Color(#colorLiteral(red: 0.2685751915, green: 0.8209512234, blue: 0.7121270299, alpha: 1)))
-                 .font(.system(size: 20))
-                 .fontWeight(.heavy)
-                  .padding(.leading, 10)
+              
+            Button(action: {
+                        print("Log in now")
+                    }) {
+                        HStack {
+                            
+                            Text("Log in")
+                                .foregroundColor(Color(#colorLiteral(red: 0.1576863825, green: 0.6400369406, blue: 0.7132930756, alpha: 1)))
+                                .font(.system(size: 20))
+                                .fontWeight(.heavy)
+                                 .padding(.leading, 10)
+                        }
+                        
+            }
+            
 
           }
           .padding(.top, 20)
